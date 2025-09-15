@@ -1,0 +1,50 @@
+Cálculo Diferencial,4,MAT001
+Cálculo Integral,4,MAT002
+Álgebra Lineal,3,MAT003
+Geometría Analítica,3,MAT004
+Estadística y Probabilidad,3,MAT005
+Cálculo Vectorial,4,MAT006
+Ecuaciones Diferenciales,3,MAT007
+Matemáticas Discretas,3,MAT008
+Física Mecánica,4,FIS001
+Física Electricidad y Magnetismo,4,FIS002
+Física Ondas y Óptica,3,FIS003
+Física Moderna,3,FIS004
+Laboratorio de Física I,1,FIS005
+Laboratorio de Física II,1,FIS006
+Química General,3,QUI001
+Química Orgánica,3,QUI002
+Química Inorgánica,3,QUI003
+Laboratorio de Química,1,QUI004
+Programación Básica,3,INF001
+Programación Orientada a Objetos,3,INF002
+Estructuras de Datos,3,INF003
+Algoritmos y Complejidad,3,INF004
+Bases de Datos,3,INF005
+Ingeniería de Software,3,INF006
+Sistemas Operativos,3,INF007
+Redes de Computadores,3,INF008
+Arquitectura de Computadores,3,INF009
+Inteligencia Artificial,3,INF010
+Desarrollo Web,3,INF011
+Seguridad Informática,3,INF012
+Inglés I,2,IDI001
+Inglés II,2,IDI002
+Inglés III,2,IDI003
+Inglés IV,2,IDI004
+Francés Básico,2,IDI005
+Metodología de la Investigación,2,MET001
+Epistemología,2,FIL001
+Ética Profesional,2,FIL002
+Filosofía de la Ciencia,2,FIL003
+Comunicación Escrita,2,COM001
+Comunicación Oral,2,COM002
+Administración de Empresas,3,ADM001
+Economía General,3,ECO001
+Contabilidad Básica,3,CON001
+Mercadeo,3,MER001
+Finanzas,3,FIN001
+Derecho Comercial,2,DER001
+Psicología Organizacional,2,PSI001
+Emprendimiento,2,EMP001
+Proyecto de Grado,4,PRO001
