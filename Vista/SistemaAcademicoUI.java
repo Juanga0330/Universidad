@@ -11,19 +11,50 @@ import Curso.Materia;
 import Curso.CargaDeElementos;
 import Admision.Estudiante;
 
-public class ShopNowIU extends JFrame {
+/**
+ * Interfaz gráfica del sistema de matrícula académica.
+ * Proporciona una ventana interactiva para que los estudiantes
+ * puedan visualizar materias disponibles y gestionar su inscripción.
+ * Utiliza Swing para crear una interfaz amigable con el usuario.
+ * 
+ * @author Kevin Santiago Costo
+ * @author Juan Pablo Figueroa
+ * @author Andres Felipe Corredor
+ * @version 1.0
+ * @since 2025
+ */
+public class SistemaAcademicoUI extends JFrame {
 
+    /** Lista visual de materias disponibles */
     private JList<String> materiaList;
+    
+    /** Modelo de datos para la lista de materias */
     private DefaultListModel<String> materiaModel;
+    
+    /** Área de texto para mostrar materias inscritas */
     private JTextArea matriculaArea;
+    
+    /** Etiqueta para mostrar el costo total */
     private JLabel totalLabel;
+    
+    /** Botón para finalizar el proceso de matrícula */
     private JButton btnTerminarMatricula;
+    
+    /** Objeto matrícula del estudiante actual */
     private Matricula matricula;
+    
+    /** Lista de materias disponibles */
     private List<Materia> materias;
+    
+    /** Estudiante que está realizando la matrícula */
     private Estudiante estudiante;
 
-
-    public ShopNowIU() {
+    /**
+     * Constructor de la interfaz gráfica.
+     * Inicializa todos los componentes visuales, carga las materias
+     * desde archivo, crea un nuevo estudiante y configura los eventos.
+     */
+    public SistemaAcademicoUI() {
         setTitle("Sistema de Matrícula - Universidad");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -40,7 +71,6 @@ public class ShopNowIU extends JFrame {
                 materia.getCodigo() + " - " +
                 materia.getNombre() + " - Créditos: " +
                 materia.getCreditos()
-                
             );
         }
 
@@ -71,18 +101,18 @@ public class ShopNowIU extends JFrame {
 
         btnTerminarMatricula = new JButton("Terminar matrícula");
         btnTerminarMatricula.addActionListener(e -> {
-             LocalDateTime ahora = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd 'de'  MMMM 'de' yyyy HH:mm:ss");
-        String fechaHora = ahora.format(formatter);
-        JOptionPane.showMessageDialog(
-            this,
-            "¡Matrícula completada exitosamente!\n" +
-            "Estudiante: " + estudiante.getName() + "\n" +
-            "Código: " + estudiante.getCode() + "\n" +
-            totalLabel.getText() +
-            "\nFecha y hora: " + fechaHora
-                 );
-    });
+            LocalDateTime ahora = LocalDateTime.now();
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd 'de'  MMMM 'de' yyyy HH:mm:ss");
+            String fechaHora = ahora.format(formatter);
+            JOptionPane.showMessageDialog(
+                this,
+                "¡Matrícula completada exitosamente!\n" +
+                "Estudiante: " + estudiante.getName() + "\n" +
+                "Código: " + estudiante.getCode() + "\n" +
+                totalLabel.getText() +
+                "\nFecha y hora: " + fechaHora
+            );
+        });
 
         JPanel panelInferior = new JPanel(new BorderLayout());
         panelInferior.add(totalLabel, BorderLayout.CENTER);
@@ -98,6 +128,11 @@ public class ShopNowIU extends JFrame {
         add(splitPane, BorderLayout.CENTER);
     }
 
+    /**
+     * Actualiza el cálculo del costo total de la matrícula.
+     * Suma el valor de todos los créditos de las materias inscritas
+     * y actualiza la etiqueta visual del total.
+     */
     private void actualizarTotal() {
         double total = 0.0;
         for (Materia m : matricula.getMaterias()) { 
@@ -106,9 +141,14 @@ public class ShopNowIU extends JFrame {
         totalLabel.setText("Total: $" + total);
     }
     
+    /**
+     * Método principal que inicia la aplicación gráfica.
+     * 
+     * @param args Argumentos de línea de comandos (no utilizados)
+     */
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            new ShopNowIU().setVisible(true);
+            new SistemaAcademicoUI().setVisible(true);
         });
     }
 }

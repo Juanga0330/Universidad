@@ -6,7 +6,31 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Date;
 
+/**
+ * Clase principal del sistema de matrícula académica.
+ * Proporciona una interfaz de consola para que los estudiantes puedan
+ * inscribir materias y gestionar su matrícula.
+ * 
+ * @author Juan Pablo Figueroa
+ * @author Andres Felipe Corredor
+ * @author Kevin Santiago Costo
+ * @version 1.0
+ * @since 2025
+ */
 public class Main {
+    
+    /**
+     * Método principal que ejecuta el sistema de matrícula.
+     * Permite al estudiante:
+     * <ul>
+     *   <li>Registrar sus datos personales</li>
+     *   <li>Visualizar el catálogo de materias disponibles</li>
+     *   <li>Seleccionar e inscribir materias</li>
+     *   <li>Ver el resumen y costo total de la matrícula</li>
+     * </ul>
+     * 
+     * @param args Argumentos de línea de comandos (no utilizados)
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Estudiante estudiante = Estudiante.nuevoEstudiante();
@@ -40,7 +64,7 @@ public class Main {
             } else if (opcion >= 1 && opcion <= materias.size()) {
                 Materia seleccionada = materias.get(opcion - 1);
                 matricula.agregarMateria(seleccionada);
-                System.out.println(+ seleccionada.getNombre() + " agregada a la matrícula.");
+                System.out.println(seleccionada.getNombre() + " agregada a la matrícula.");
             } else {
                 System.out.println(" Opción inválida. Intente de nuevo.");
             }

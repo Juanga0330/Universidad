@@ -1,50 +1,50 @@
-Cálculo Diferencial,4,MAT001
-Cálculo Integral,4,MAT002
-Álgebra Lineal,3,MAT003
-Geometría Analítica,3,MAT004
-Estadística y Probabilidad,3,MAT005
-Cálculo Vectorial,4,MAT006
-Ecuaciones Diferenciales,3,MAT007
-Matemáticas Discretas,3,MAT008
-Física Mecánica,4,FIS001
-Física Electricidad y Magnetismo,4,FIS002
-Física Ondas y Óptica,3,FIS003
-Física Moderna,3,FIS004
-Laboratorio de Física I,1,FIS005
-Laboratorio de Física II,1,FIS006
-Química General,3,QUI001
-Química Orgánica,3,QUI002
-Química Inorgánica,3,QUI003
-Laboratorio de Química,1,QUI004
-Programación Básica,3,INF001
-Programación Orientada a Objetos,3,INF002
-Estructuras de Datos,3,INF003
-Algoritmos y Complejidad,3,INF004
-Bases de Datos,3,INF005
-Ingeniería de Software,3,INF006
-Sistemas Operativos,3,INF007
-Redes de Computadores,3,INF008
-Arquitectura de Computadores,3,INF009
-Inteligencia Artificial,3,INF010
-Desarrollo Web,3,INF011
-Seguridad Informática,3,INF012
-Inglés I,2,IDI001
-Inglés II,2,IDI002
-Inglés III,2,IDI003
-Inglés IV,2,IDI004
-Francés Básico,2,IDI005
-Metodología de la Investigación,2,MET001
-Epistemología,2,FIL001
-Ética Profesional,2,FIL002
-Filosofía de la Ciencia,2,FIL003
-Comunicación Escrita,2,COM001
-Comunicación Oral,2,COM002
-Administración de Empresas,3,ADM001
-Economía General,3,ECO001
-Contabilidad Básica,3,CON001
-Mercadeo,3,MER001
-Finanzas,3,FIN001
-Derecho Comercial,2,DER001
-Psicología Organizacional,2,PSI001
-Emprendimiento,2,EMP001
-Proyecto de Grado,4,PRO001
+1, Cálculo Diferencial, 4
+2, Cálculo Integral, 4
+3, Cálculo Multivariable, 4
+4, Álgebra Lineal, 3
+5, Ecuaciones Diferenciales, 3
+6, Probabilidad y Estadística, 3
+7, Matemáticas Discretas, 3
+8, Física I (Mecánica), 4
+9, Física II (Electromagnetismo), 4
+10, Física III (Ondas y Óptica), 3
+11, Química General, 4
+12, Química Orgánica, 3
+13, Biología General, 3
+14, Genética, 3
+15, Microbiología, 3
+16, Introducción a la Economía, 3
+17, Macroeconomía, 3
+18, Microeconomía, 3
+19, Derecho Constitucional, 3
+20, Derecho Civil, 3
+21, Derecho Penal, 3
+22, Sociología, 3
+23, Psicología General, 3
+24, Antropología, 2
+25, Filosofía, 2
+26, Ética Profesional, 2
+27, Inglés I, 2
+28, Inglés II, 2
+29, Inglés Técnico, 2
+30, Comunicación Oral y Escrita, 2
+31, Literatura, 2
+32, Introducción a la Informática, 3
+33, Programación I, 3
+34, Programación II, 3
+35, Bases de Datos, 3
+36, Sistemas Operativos, 3
+37, Administración General, 3
+38, Contabilidad General, 3
+39, Contabilidad de Costos, 3
+40, Finanzas I, 3
+41, Mercadeo, 3
+42, Álgebra para Ingeniería, 3
+43, Estadística Aplicada, 3
+44, Mecánica de Materiales, 4
+45, Termodinámica, 4
+46, Electrónica Básica, 3
+47, Circuitos Eléctricos, 3
+48, Taller de Investigación, 2
+49, Proyecto de Grado, 4
+50, Seminario Final, 4
