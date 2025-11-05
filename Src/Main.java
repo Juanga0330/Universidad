@@ -1,7 +1,8 @@
-import Admision.Estudiante;
-import Admision.Matricula;
-import Curso.Materia;
-import Curso.CargaDeElementos;
+package Src;
+import Src.Admision.Estudiante;
+import Src.Admision.Matricula;
+import Src.Curso.Materia;
+import Src.Curso.CargaDeElementos;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Date;

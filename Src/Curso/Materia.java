@@ -1,4 +1,4 @@
-package Curso;
+package Src.Curso;
 
 /**
  * Representa una materia académica del plan de estudios.

@@ -1,7 +1,8 @@
-package Admision;
+package Src.Admision;
 import java.util.Date; 
 import java.util.ArrayList;
-import Curso.Materia; 
+import Src.Curso.Materia;
+
 
 /**
  * Representa la matrícula académica de un estudiante.
