@@ -9,10 +9,10 @@ import java.util.List;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-import Admision.Matricula;
-import Curso.Materia;
-import Curso.CargaDeElementos;
-import Admision.Estudiante;
+import Src.Admision.Matricula;
+import Src.Curso.Materia;
+import Src.Curso.CargaDeElementos;
+import Src.Admision.Estudiante;
 
 /**
  * Interfaz gráfica del sistema de matrícula académica.

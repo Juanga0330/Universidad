@@ -1,5 +1,5 @@
-package Admision;
-
+package Test.Admision;
+import Src.Admision.Estudiante;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Clase de pruebas unitarias para la clase Estudiante.
  */
-class EstudianteTest {
+public class EstudianteTest {
     
     private Estudiante estudiante;
     

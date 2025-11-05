@@ -1,10 +1,12 @@
-package Admision;
+package Test.Admision;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.Date;
-import Curso.Materia;
+import Src.Curso.Materia;
+import Src.Admision.Matricula;
+import Src.Admision.Estudiante;
 
 /**
  * Clase de pruebas unitarias para la clase Matricula.

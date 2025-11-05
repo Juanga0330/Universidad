@@ -3,7 +3,7 @@ package Test.Curso;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
-import Curso.Materia;
+import Src.Curso.Materia;
 public class MateriaTest {
     
     private Materia materia;
